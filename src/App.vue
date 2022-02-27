@@ -5,28 +5,37 @@
       color="primary"
       dark
     >
-    <h3>QuickPicker</h3>
+    <h3>QuickPick.js</h3>
     </v-app-bar>
 
     <v-main>
-      <main-component/>
+      <selector-component @selected="setPickedNumber"/>
+      <result-component :picked="picked"/>
     </v-main>
   </v-app>
 </template>
 
 <script>
 
-import MainComponent from './components/MainComponent';
+import SelectorComponent from './components/SelectorComponent';
+import ResultComponent from "@/components/ResultComponent";
 
 export default {
   name: 'App',
 
   components: {
-    MainComponent,
+    SelectorComponent,
+    ResultComponent,
   },
 
   data: () => ({
-    //
+    picked: [],
   }),
+
+  methods:{
+    setPickedNumber: function(picked){
+      this.picked = picked
+    }
+  }
 };
 </script>
