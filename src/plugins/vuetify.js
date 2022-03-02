@@ -9,15 +9,15 @@ export default new Vuetify({
         themes:{
             light:{
                 primary: colors.green.darken1,
-                // Color of each blackets
-                blacket1: colors.shades.white,
-                blacket2: colors.shades.black,
-                blacket3: colors.red.darken2,
-                blacket4: colors.blue.darken2,
-                blacket5: colors.yellow.accent2,
-                blacket6: colors.lightGreen.accent3,
-                blacket7: colors.yellow.darken4,
-                blacket8: colors.pink.lighten4,
+                // Color of each brackets
+                bracket1: colors.shades.white,
+                bracket2: colors.shades.black,
+                bracket3: colors.red.darken2,
+                bracket4: colors.blue.darken2,
+                bracket5: colors.yellow.accent2,
+                bracket6: colors.lightGreen.accent3,
+                bracket7: colors.yellow.darken4,
+                bracket8: colors.pink.lighten4,
             }
         }
     }

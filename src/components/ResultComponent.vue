@@ -1,12 +1,11 @@
 <template>
     <v-container>
         <v-row>
-            <v-col cols="4">
-                <h3>{{ picked }}</h3>
+            <v-col>
+                {{picked}}
             </v-col>
         </v-row>
     </v-container>
-
 </template>
 
 <script>
