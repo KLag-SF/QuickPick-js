@@ -1,24 +1,7 @@
-# quickpick
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+# QuickPick.js
+### Overview
+投票方法と出走数を指定すると買い目をランダムで生成します。ただそれだけです。  
+レスポンシブ対応してます、多分。
+### Frameworks
+- Vue.js 2.x
+- Vuetify 2
