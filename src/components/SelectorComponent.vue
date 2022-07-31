@@ -18,6 +18,7 @@
           :items="max_opt"
           label="出走数"
           v-model="max"
+          required
         />
       </v-col>
 
@@ -91,8 +92,6 @@ export default {
     for (let i = 1; i <= 18; i++) {
       this.max_opt.push(i)
     }
-    console.log(this.$router.query.max.toString())
-    this.max = this.$route.query.max
   }
 }
 </script>
