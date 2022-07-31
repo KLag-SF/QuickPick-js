@@ -5,3 +5,8 @@
 ### Frameworks
 - Vue.js 2.x
 - Vuetify 2
+
+### ToDo
+- 入力バリデーション
+- 出力結果の整形(枠色その他)
+- URLクエリでの出走数指定
