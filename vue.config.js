@@ -3,7 +3,7 @@ module.exports = defineConfig({
   transpileDependencies: [
     'vuetify'
   ],
-  PublicPath: process.env.NODE_ENV === 'production'
+  publicPath: process.env.NODE_ENV === 'production'
             ? '/quickpick-js/'
             : '/',
 
