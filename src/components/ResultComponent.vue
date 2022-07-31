@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <v-row>
-            <v-col>
+            <v-col v-if="picked.length != 0">
                 {{picked}}
             </v-col>
         </v-row>
